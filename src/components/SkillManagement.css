@@ -1,0 +1,8 @@
+.custom-tag-autocomplete .react-tags__selected-tag {
+    margin: 0 4px 4px 0; /* Adjust the margins as per your preference */
+    padding: 8px 12px; /* Adjust the padding as per your preference */
+    font-size: 14px; /* Adjust the font size as per your preference */
+    width: 200px;
+    height: 10px;
+  }
+  
