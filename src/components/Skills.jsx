@@ -33,7 +33,10 @@ const SkillManagement = () => {
     <div>
       <h2>
         <center>
-          <b>ADD SKILLS</b>
+        <h2 className="text-center" style={{ backgroundColor: 'lightblue' }}>
+  <b>SKILLS</b>
+</h2>
+
         </center>
       </h2>
       <div>
@@ -67,8 +70,7 @@ const SkillManagement = () => {
       {selectedSkills.length === 0 && (
         <div style={{ textAlign: 'center',}}>
          </div>
-         
-      )}
+          )}
     </div>
   );
 };

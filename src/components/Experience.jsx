@@ -28,9 +28,10 @@ const Experience = () => {
 
   return (
     <div className="container">
-      <h2 className="text-center">
-        <b>EXPERIENCE</b>
-      </h2>
+    <br></br> <h2 className="text-center" style={{ backgroundColor: 'lightblue' }}>
+  <b>EXPERIENCE</b>
+</h2>
+
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="form-group col-md-6 mb-3">

@@ -33,9 +33,10 @@ const Education = () => {
 
   return (
     <div className="container">
-      <h2 className="text-center">
-        <b>EDUCATION</b>
-      </h2>
+      <h2 className="text-center" style={{ backgroundColor: 'lightblue' }}>
+  <b>EDUCATION</b>
+</h2>
+
       <form className="needs-validation" noValidate onSubmit={handleSubmit}>
         <div className="row">
           <div className="form-group col-md-6 mb-3">
@@ -213,10 +214,12 @@ const Education = () => {
         )}
 
         <div className="text-center">
-          <button type="button" className="btn btn-primary" onClick={handleButtonClick}>
+        
+          <button type="button" className="btn btn-secondary" onClick={handleButtonClick}>
             ADD EDUCATION
-          </button>
+          </button><br></br>
         </div>
+        
       </form>
     </div>
   );

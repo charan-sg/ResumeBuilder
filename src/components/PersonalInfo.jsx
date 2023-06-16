@@ -34,7 +34,10 @@ const PersonalInfo = () => {
 
   return (
     <div className="container">
-      <h2 className="text-center"><b>PERSONAL INFORMATION</b></h2>
+      <h2 className="text-center" style={{ backgroundColor: 'lightblue' }}>
+  <b>PERSONAL INFORMATION</b>
+</h2>
+
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="form-group col-md-6 mb-3">
