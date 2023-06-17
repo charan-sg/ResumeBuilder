@@ -4,7 +4,7 @@ const Experience = () => {
   const [companyName, setCompanyName] = useState('');
   const [designation, setDesignation] = useState('');
   const [yearsOfExperience, setYearsOfExperience] = useState('');
-  const [currentSalary, setCurrentSalary] = useState('');
+  const [acheivements, setacheivements] = useState('');
   const [place, setPlace] = useState('');
   const [employeeId, setEmployeeId] = useState('');
 
@@ -15,7 +15,7 @@ const Experience = () => {
       companyName === '' ||
       designation === '' ||
       yearsOfExperience === '' ||
-      currentSalary === '' ||
+      acheivements === '' ||
       place === '' ||
       employeeId === ''
     ) {
@@ -80,14 +80,14 @@ const Experience = () => {
             </select>
           </div>
           <div className="form-group col-md-6 mb-3">
-            <label htmlFor="inputCurrentSalary">ACHEIVEMENTS</label>
+            <label htmlFor="inputAcheivements">ACHEIVEMENTS</label>
             <input
               type="text"
              className="form-control"
-              id="inputCurrentSalary"
+              id="inputAcheivements"
               placeholder=""
-              value={currentSalary}
-              onChange={(e) => setCurrentSalary(e.target.value)}
+              value={acheivements}
+              onChange={(e) => setAcheivements(e.target.value)}
               required
             />
           </div>
