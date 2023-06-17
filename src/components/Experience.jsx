@@ -4,7 +4,7 @@ const Experience = () => {
   const [companyName, setCompanyName] = useState('');
   const [designation, setDesignation] = useState('');
   const [yearsOfExperience, setYearsOfExperience] = useState('');
-  const [acheivements, setacheivements] = useState('');
+  const [acheivements, setAcheivements] = useState('');
   const [place, setPlace] = useState('');
   const [employeeId, setEmployeeId] = useState('');
 

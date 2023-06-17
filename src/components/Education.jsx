@@ -148,7 +148,7 @@ const Education = () => {
               type="number"
               min="0"
               className="form-control"
-              id="inputDesignationName"
+              id="inputcgpa"
               placeholder=""
               value={cgpa}
               onChange={(e) => setCGPA(e.target.value)}
@@ -161,7 +161,7 @@ const Education = () => {
           <div>
             <div className="row">
               <div className="form-group col-md-6 mb-3">
-                <label htmlFor="inputHighestDegree">12TH/DIPLOMA</label>
+                <label htmlFor="input12th">12TH/DIPLOMA</label>
                 <input
                   type="text"
                   className="form-control"
